@@ -197,7 +197,7 @@ function OutfitCard({ outfit, isHighlighted }) {
             {/* Left: Outfit photo */}
             <div className="w-[55%] relative overflow-hidden group/photo">
               <img
-                src={outfitPhoto}
+                src={`${import.meta.env.BASE_URL}${outfitPhoto}`}
                 alt={`Outfit #${outfit.id}`}
                 className="w-full h-full object-cover object-top"
                 loading="lazy"
@@ -213,7 +213,7 @@ function OutfitCard({ outfit, isHighlighted }) {
               {items.map((item, idx) => (
                 imageMap[item.name] ? (
                   <div key={idx} className="flex-1 relative overflow-hidden group/item min-h-0">
-                    <img src={imageMap[item.name]} alt={item.name} className="w-full h-full object-cover" loading="lazy"
+                    <img src={`${import.meta.env.BASE_URL}${imageMap[item.name]}`} alt={item.name} className="w-full h-full object-cover" loading="lazy"
                       style={{ transition: 'transform 0.5s var(--ease-out-expo)' }}
                       onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
                       onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
@@ -263,7 +263,7 @@ function OutfitCard({ outfit, isHighlighted }) {
               <div key={idx} className="relative overflow-hidden rounded-lg group/item" style={{ aspectRatio: '3/4' }}>
                 {imageMap[item.name] ? (
                   <>
-                    <img src={imageMap[item.name]} alt={item.name} className="w-full h-full object-cover transition-transform duration-500 group-hover/item:scale-105" loading="lazy" />
+                    <img src={`${import.meta.env.BASE_URL}${imageMap[item.name]}`} alt={item.name} className="w-full h-full object-cover transition-transform duration-500 group-hover/item:scale-105" loading="lazy" />
                     <div className="absolute bottom-0 left-0 right-0 px-2 py-1 text-[10px] font-medium text-white opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"
                       style={{ background: 'linear-gradient(transparent, rgba(0,0,0,0.6))' }}>
                       {item.label}: {item.name}
@@ -278,7 +278,7 @@ function OutfitCard({ outfit, isHighlighted }) {
             ))}
             {items.filter(i => imageMap[i.name]).length < 4 && outfit.watch !== '-' && imageMap[outfit.watch] && (
               <div className="relative overflow-hidden rounded-lg group/item" style={{ aspectRatio: '3/4' }}>
-                <img src={imageMap[outfit.watch]} alt={outfit.watch} className="w-full h-full object-cover transition-transform duration-500 group-hover/item:scale-105" loading="lazy" />
+                <img src={`${import.meta.env.BASE_URL}${imageMap[outfit.watch]}`} alt={outfit.watch} className="w-full h-full object-cover transition-transform duration-500 group-hover/item:scale-105" loading="lazy" />
                 <div className="absolute bottom-0 left-0 right-0 px-2 py-1 text-[10px] font-medium text-white opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"
                   style={{ background: 'linear-gradient(transparent, rgba(0,0,0,0.6))' }}>
                   Watch: {outfit.watch}

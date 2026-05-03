@@ -125,7 +125,7 @@ export default function DigitalCloset() {
           >
             <div className="aspect-[3/4] relative overflow-hidden img-overlay" style={{ background: '#f0ece7' }}>
               {imageMap[item] ? (
-                <img src={imageMap[item]} alt={item} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
+                <img src={`${import.meta.env.BASE_URL}${imageMap[item]}`} alt={item} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
               ) : (
                 <div className="w-full h-full flex items-center justify-center" style={{ color: 'var(--text-muted)' }}>
                   <span className="text-4xl">{categoriesMap[activeCategory]?.icon || '👕'}</span>
@@ -153,7 +153,7 @@ export default function DigitalCloset() {
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
                   {imageMap[selectedItem] && (
-                    <img src={imageMap[selectedItem]} alt={selectedItem} className="w-10 h-10 rounded-lg object-cover" />
+                    <img src={`${import.meta.env.BASE_URL}${imageMap[selectedItem]}`} alt={selectedItem} className="w-10 h-10 rounded-lg object-cover" />
                   )}
                   <div>
                     <h3 className="font-bold text-sm" style={{ color: 'var(--text-primary)' }}>{selectedItem}</h3>
@@ -226,13 +226,13 @@ function MiniOutfitCard({ outfit, selectedItem, onClick }) {
       {hasOutfitPhoto ? (
         <div className="flex gap-1 rounded-lg overflow-hidden h-32">
           <div className="w-[45%] relative">
-            <img src={outfitPhoto} onError={() => setImgError(true)} alt={`Outfit #${outfit.id}`} className="w-full h-full object-cover object-top" loading="lazy" />
+            <img src={`${import.meta.env.BASE_URL}${outfitPhoto}`} onError={() => setImgError(true)} alt={`Outfit #${outfit.id}`} className="w-full h-full object-cover object-top" loading="lazy" />
           </div>
           <div className="w-[55%] grid grid-cols-2 gap-[2px] p-[2px]" style={{ background: 'var(--border-light)' }}>
             {outfitItems.slice(0, 4).map((item, idx) => (
               imageMap[item.name] ? (
                 <div key={idx} className="relative overflow-hidden aspect-square">
-                  <img src={imageMap[item.name]} alt={item.name} className="w-full h-full object-cover" loading="lazy" />
+                  <img src={`${import.meta.env.BASE_URL}${imageMap[item.name]}`} alt={item.name} className="w-full h-full object-cover" loading="lazy" />
                   {isSameItem(item.name, selectedItem) && <div className="absolute inset-0" style={{ border: '2px solid var(--accent)' }} />}
                 </div>
               ) : null
@@ -244,7 +244,7 @@ function MiniOutfitCard({ outfit, selectedItem, onClick }) {
           {outfitItems.map((item, idx) => (
             imageMap[item.name] ? (
               <div key={idx} className="flex-1 aspect-square overflow-hidden relative">
-                <img src={imageMap[item.name]} alt={item.name} className="w-full h-full object-cover" loading="lazy" />
+                <img src={`${import.meta.env.BASE_URL}${imageMap[item.name]}`} alt={item.name} className="w-full h-full object-cover" loading="lazy" />
                 {isSameItem(item.name, selectedItem) && <div className="absolute inset-0" style={{ border: '2px solid var(--accent)' }} />}
               </div>
             ) : null
@@ -298,7 +298,7 @@ function ExpandedOutfitCard({ outfit, selectedItem, onClose }) {
       {hasOutfitPhoto ? (
         <div className="flex rounded-t-3xl overflow-hidden" style={{ minHeight: '380px' }}>
           <div className="w-[55%] relative group/photo">
-            <img src={outfitPhoto} onError={() => setImgError(true)} alt={`Outfit #${outfit.id}`} className="w-full h-full object-cover object-top" loading="lazy"
+            <img src={`${import.meta.env.BASE_URL}${outfitPhoto}`} onError={() => setImgError(true)} alt={`Outfit #${outfit.id}`} className="w-full h-full object-cover object-top" loading="lazy"
               style={{ transition: 'transform 0.6s var(--ease-out-expo)' }}
               onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.03)'}
               onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
@@ -308,7 +308,7 @@ function ExpandedOutfitCard({ outfit, selectedItem, onClose }) {
             {outfitItems.map((item, idx) => (
               imageMap[item.name] ? (
                 <div key={idx} className="flex-1 relative overflow-hidden group/item min-h-0">
-                  <img src={imageMap[item.name]} alt={item.name} className="w-full h-full object-cover" loading="lazy"
+                  <img src={`${import.meta.env.BASE_URL}${imageMap[item.name]}`} alt={item.name} className="w-full h-full object-cover" loading="lazy"
                     style={{ transition: 'transform 0.5s var(--ease-out-expo)' }}
                     onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
                     onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
@@ -328,7 +328,7 @@ function ExpandedOutfitCard({ outfit, selectedItem, onClose }) {
           {outfitItems.slice(0, 4).map((item, idx) => (
             imageMap[item.name] ? (
               <div key={idx} className="relative overflow-hidden rounded-xl group/item" style={{ aspectRatio: '3/4' }}>
-                <img src={imageMap[item.name]} alt={item.name} className="w-full h-full object-cover" loading="lazy"
+                <img src={`${import.meta.env.BASE_URL}${imageMap[item.name]}`} alt={item.name} className="w-full h-full object-cover" loading="lazy"
                   style={{ transition: 'transform 0.6s var(--ease-out-expo)' }}
                   onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.06)'}
                   onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
@@ -345,7 +345,7 @@ function ExpandedOutfitCard({ outfit, selectedItem, onClose }) {
           ))}
           {outfitItems.filter(i => imageMap[i.name]).length < 4 && outfit.watch !== '-' && imageMap[outfit.watch] && (
             <div className="relative overflow-hidden rounded-xl" style={{ aspectRatio: '3/4' }}>
-              <img src={imageMap[outfit.watch]} alt={outfit.watch} className="w-full h-full object-cover" loading="lazy" />
+              <img src={`${import.meta.env.BASE_URL}${imageMap[outfit.watch]}`} alt={outfit.watch} className="w-full h-full object-cover" loading="lazy" />
             </div>
           )}
         </div>
