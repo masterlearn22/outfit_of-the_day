@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery</title>
+  <style>
+    body { font-family: sans-serif; }
+    .grid { display: flex; flex-wrap: wrap; gap: 20px; }
+    .card { border: 1px solid #ccc; padding: 10px; width: 300px; }
+    img { max-width: 100%; height: auto; }
+    .filename { font-weight: bold; margin-top: 10px; font-size: 14px; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <h1>Image Gallery</h1>
+  <div class="grid" id="grid"></div>
+  <script>
+    const filenames = [
+      "DSv31B7S_260408_1505072.jpeg",
+      "IMG_20260503_191135.jpg",
+      "IMG_20260503_191356.jpg",
+      "IMG_20260503_191534.jpg",
+      "IMG_20260503_191642.jpg",
+      "IMG_20260503_191738.jpg",
+      "IMG_20260503_191944.jpg",
+      "IMG_20260503_192044.jpg",
+      "IMG_20260503_192137.jpg",
+      "IMG_20260503_192249.jpg",
+      "IMG_20260503_192341.jpg",
+      "IMG_20260503_192408.jpg",
+      "IMG_20260503_192613.jpg",
+      "IMG_20260503_192653.jpg",
+      "IMG_20260503_192721.jpg",
+      "IMG_20260503_192801.jpg",
+      "IMG_20260503_192833.jpg",
+      "IMG_20260503_192915.jpg",
+      "IMG_20260503_193017.jpg",
+      "IMG_20260503_193047.jpg",
+      "IMG_20260503_193232.jpg",
+      "IMG_20260503_193536.jpg",
+      "IMG_20260503_193554.jpg",
+      "IMG_20260503_193615.jpg",
+      "IMG_20260503_193625.jpg",
+      "IMG_20260503_193637.jpg",
+      "IMG_20260503_211210.jpg",
+      "IMG_20260503_211306.jpg"
+    ];
+    const grid = document.getElementById('grid');
+    filenames.forEach(f => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `<img src="images/${f}" /> <div class="filename">${f}</div>`;
+      grid.appendChild(card);
+    });
+  </script>
+</body>
+</html>

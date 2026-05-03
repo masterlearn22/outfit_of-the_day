@@ -1,0 +1,364 @@
+{
+  "outfits": [
+    {
+      "id": 1,
+      "top": "Kemeja Batik",
+      "bottom": "Celana Hitam Formal",
+      "outerwear": "-",
+      "shoes": "Loafers Hitam dengan Gesper",
+      "watch": "Casio Standard",
+      "style": "Formal Rapi",
+      "activity": "Kondangan; Acara Keluarga; Sidang"
+    },
+    {
+      "id": 2,
+      "top": "Kemeja Batik",
+      "bottom": "Celana Slacks Abu-abu",
+      "outerwear": "-",
+      "shoes": "Loafers Hitam Polos",
+      "watch": "Casio Standard",
+      "style": "Formal Siang",
+      "activity": "Acara Resmi Siang Hari"
+    },
+    {
+      "id": 3,
+      "top": "Kemeja Garis Biru",
+      "bottom": "Celana Hitam Formal",
+      "outerwear": "-",
+      "shoes": "Loafers Hitam dengan Gesper",
+      "watch": "Casio Edifice EF-305",
+      "style": "Profesional",
+      "activity": "Presentasi; Meeting Formal; Magang"
+    },
+    {
+      "id": 4,
+      "top": "Kemeja Voedelo",
+      "bottom": "Celana Hitam Formal",
+      "outerwear": "-",
+      "shoes": "Loafers Hitam dengan Gesper",
+      "watch": "Casio Standard",
+      "style": "Formal Malam",
+      "activity": "Gala Dinner; Pesta Resmi"
+    },
+    {
+      "id": 5,
+      "top": "Kemeja Plaid",
+      "bottom": "Celana Hitam Formal",
+      "outerwear": "-",
+      "shoes": "Loafers Hitam Polos",
+      "watch": "Casio Edifice EF-305",
+      "style": "Semi-Formal",
+      "activity": "Presentasi Kelas"
+    },
+    {
+      "id": 6,
+      "top": "Kemeja Garis Biru (Digulung)",
+      "bottom": "Celana Chinos Khaki",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Smart Casual",
+      "activity": "Ngantor Casual; Bertemu Dosen"
+    },
+    {
+      "id": 7,
+      "top": "Kemeja Khaki Pendek",
+      "bottom": "Blue Jeans Lee Cooper",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Smart Casual",
+      "activity": "Kencan; Jalan-jalan di Mall"
+    },
+    {
+      "id": 8,
+      "top": "Kemeja Khaki Pendek",
+      "bottom": "Celana Chinos Dark Olive",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Earthy Casual",
+      "activity": "Ngopi Santai; Hangout Sore"
+    },
+    {
+      "id": 9,
+      "top": "Polo Shirt Hitam P&B",
+      "bottom": "Celana Chinos Khaki",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Smart Casual",
+      "activity": "Kuliah Santai; Buka Bersama"
+    },
+    {
+      "id": 10,
+      "top": "Polo Hitam Polos",
+      "bottom": "Celana Slacks Abu-abu",
+      "outerwear": "-",
+      "shoes": "Loafers Hitam Polos",
+      "watch": "Casio Edifice EF-305",
+      "style": "Minimalis Rapi",
+      "activity": "Semi-formal Minimalis; Kumpul Organisasi"
+    },
+    {
+      "id": 11,
+      "top": "Polo Navy Yutong",
+      "bottom": "Celana Chinos Khaki",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Classic Casual",
+      "activity": "Jalan-jalan Santai; Hangout"
+    },
+    {
+      "id": 12,
+      "top": "Polo Maroon",
+      "bottom": "Celana Chinos Dark Olive",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Casual Bold",
+      "activity": "Dinner Santai"
+    },
+    {
+      "id": 13,
+      "top": "Kemeja Voedelo",
+      "bottom": "Blue Jeans Lee Cooper",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Smart Casual",
+      "activity": "Pesta Semi-Casual"
+    },
+    {
+      "id": 14,
+      "top": "Kemeja Plaid (Digulung)",
+      "bottom": "Blue Jeans Lee Cooper",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Casual Night",
+      "activity": "Hangout Malam Bareng Teman"
+    },
+    {
+      "id": 15,
+      "top": "Polo Shirt Hitam P&B",
+      "bottom": "Celana Hitam Formal",
+      "outerwear": "-",
+      "shoes": "Loafers Hitam Polos",
+      "watch": "Casio Standard",
+      "style": "Monochrome Smart",
+      "activity": "Acara Kantor Semi-Formal"
+    },
+    {
+      "id": 16,
+      "top": "Polo Navy Yutong",
+      "bottom": "Blue Jeans Lee Cooper",
+      "outerwear": "-",
+      "shoes": "Running Shoes Putih/Abu",
+      "watch": "Smartwatch Supercalla Onyx",
+      "style": "Sporty Casual",
+      "activity": "Ke Kampus; Nonton Bioskop"
+    },
+    {
+      "id": 17,
+      "top": "Polo DREAM (Detail Lengan)",
+      "bottom": "Blue Jeans Lee Cooper",
+      "outerwear": "-",
+      "shoes": "Running Shoes Putih/Abu",
+      "watch": "Smartwatch Supercalla Onyx",
+      "style": "Street Casual",
+      "activity": "Nongkrong Santai"
+    },
+    {
+      "id": 18,
+      "top": "Kaos Hitam Flypower",
+      "bottom": "Celana Cargo Cokelat",
+      "outerwear": "Jaket Versace",
+      "shoes": "Running Shoes Merah",
+      "watch": "Smartwatch Supercalla Onyx",
+      "style": "Rugged / Adventure",
+      "activity": "Traveling; Perjalanan Jauh; Touring"
+    },
+    {
+      "id": 19,
+      "top": "Kaos Hitam Flypower",
+      "bottom": "Blue Jeans Lee Cooper",
+      "outerwear": "Jaket Versace",
+      "shoes": "Running Shoes Putih/Abu",
+      "watch": "Smartwatch Supercalla Onyx",
+      "style": "Urban Night",
+      "activity": "Keluar Malam; Ngopi Malam"
+    },
+    {
+      "id": 20,
+      "top": "Polo Shirt Hitam P&B",
+      "bottom": "Celana Cargo Cokelat",
+      "outerwear": "Jaket Versace",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Masculine Layer",
+      "activity": "Hangout Cuaca Dingin"
+    },
+    {
+      "id": 21,
+      "top": "Polo Hitam Polos",
+      "bottom": "Celana Abu Tua/Hitam",
+      "outerwear": "-",
+      "shoes": "Running Shoes Putih/Abu",
+      "watch": "Smartwatch Supercalla Onyx",
+      "style": "Monochrome",
+      "activity": "Aktivitas Bebas; Bersantai"
+    },
+    {
+      "id": 22,
+      "top": "Kaos Hitam Flypower",
+      "bottom": "Celana Cargo Cokelat",
+      "outerwear": "Kemeja Khaki Pendek (Outer Terbuka)",
+      "shoes": "Running Shoes Merah",
+      "watch": "Smartwatch Supercalla Onyx",
+      "style": "Streetwear",
+      "activity": "Hunting Foto; Outdoor Santai"
+    },
+    {
+      "id": 23,
+      "top": "Kemeja Garis Biru",
+      "bottom": "Blue Jeans Lee Cooper",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Smart Casual Weekend",
+      "activity": "Brunch; Kumpul Keluarga"
+    },
+    {
+      "id": 24,
+      "top": "Kemeja Voedelo",
+      "bottom": "Celana Chinos Dark Olive",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Creative Casual",
+      "activity": "Pameran Seni; Creative Meeting"
+    },
+    {
+      "id": 25,
+      "top": "Kemeja Plaid (Digulung)",
+      "bottom": "Celana Chinos Khaki",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Campus Look",
+      "activity": "Kegiatan Kampus Harian"
+    },
+    {
+      "id": 26,
+      "top": "Kemeja Khaki Pendek",
+      "bottom": "Celana Cargo Cokelat",
+      "outerwear": "-",
+      "shoes": "Sepatu Kulit Cokelat",
+      "watch": "Casio Edifice EF-305",
+      "style": "Safari Look",
+      "activity": "Wisata Alam Ringan"
+    },
+    {
+      "id": 27,
+      "top": "Polo Maroon",
+      "bottom": "Blue Jeans Lee Cooper",
+      "outerwear": "-",
+      "shoes": "Running Shoes Putih/Abu",
+      "watch": "Smartwatch Supercalla Onyx",
+      "style": "Daytime Casual",
+      "activity": "Nongkrong Siang"
+    },
+    {
+      "id": 28,
+      "top": "Polo DREAM (Detail Lengan)",
+      "bottom": "Celana Cargo Cokelat",
+      "outerwear": "-",
+      "shoes": "Running Shoes Merah",
+      "watch": "Smartwatch Supercalla Onyx",
+      "style": "Edgy Casual",
+      "activity": "Konser Indie; Festival"
+    },
+    {
+      "id": 29,
+      "top": "Polo Navy Yutong",
+      "bottom": "Celana Abu Tua/Hitam",
+      "outerwear": "-",
+      "shoes": "Loafers Hitam Polos",
+      "watch": "Casio Edifice EF-305",
+      "style": "Preppy Casual",
+      "activity": "Meeting di Cafe"
+    },
+    {
+      "id": 30,
+      "top": "Kaos Hitam Flypower",
+      "bottom": "Celana Chinos Khaki",
+      "outerwear": "Jaket Versace",
+      "shoes": "Running Shoes Putih/Abu",
+      "watch": "Smartwatch Supercalla Onyx",
+      "style": "Modern Utility",
+      "activity": "Night Ride; Nongkrong Otomotif"
+    },
+    {
+      "id": 31,
+      "top": "Polo Maroon",
+      "bottom": "Celana Slacks Abu-abu",
+      "outerwear": "-",
+      "shoes": "Loafers Hitam Polos",
+      "watch": "Casio Edifice EF-305",
+      "style": "Smart Casual Dinner",
+      "activity": "Makan Malam Formal-Santai"
+    },
+    {
+      "id": 32,
+      "top": "Kemeja Batik",
+      "bottom": "Blue Jeans Lee Cooper",
+      "outerwear": "-",
+      "shoes": "Loafers Hitam Polos",
+      "watch": "Casio Standard",
+      "style": "Casual Friday",
+      "activity": "Kerja Hari Jumat; Ngantor Casual"
+    }
+  ],
+  "categories": {
+    "tops": [
+      "Polo Hitam Polos",
+      "Kemeja Batik",
+      "Kemeja Garis Biru",
+      "Polo Navy Yutong",
+      "Polo DREAM (Detail Lengan)",
+      "Kemeja Voedelo",
+      "Kemeja Plaid",
+      "Polo Maroon",
+      "Polo Shirt Hitam P&B",
+      "Kemeja Khaki Pendek",
+      "Kaos Hitam Flypower"
+    ],
+    "bottoms": [
+      "Celana Cargo Cokelat",
+      "Celana Chinos Dark Olive",
+      "Blue Jeans Lee Cooper",
+      "Celana Chinos Khaki",
+      "Celana Hitam Formal",
+      "Celana Slacks Abu-abu",
+      "Celana Abu Tua/Hitam"
+    ],
+    "outerwears": [
+      "Jaket Versace",
+      "Kemeja Khaki Pendek (Outer Terbuka)"
+    ],
+    "shoes": [
+      "Sepatu Kulit Cokelat",
+      "Running Shoes Merah",
+      "Loafers Hitam dengan Gesper",
+      "Loafers Hitam Polos",
+      "Running Shoes Putih/Abu"
+    ],
+    "watches": [
+      "Smartwatch Supercalla Onyx",
+      "Casio Standard",
+      "Casio Edifice EF-305"
+    ]
+  }
+}
